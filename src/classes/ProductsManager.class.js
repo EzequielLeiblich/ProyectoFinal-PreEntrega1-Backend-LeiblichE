@@ -4,12 +4,16 @@ import { v4 as uuidV4 } from 'uuid'
 const path = "src/classes/files/products.json"
 
 export default class ManagerProducts {
-    consultarProductos = async () => {
-        console.log("Existe", fs.existsSync(path));
+    consultarProductos = async (limit) => {
+        console.log("Producto existente", fs.existsSync(path));
         if (fs.existsSync(path)) {
             const data = await fs.promises.readFile(path, "utf-8");
             const  products = JSON.parse(data);
-            return products;
+            if (limit) {
+                return products.slice(0, limit);
+            } else {
+                return products;
+            }
         } else {
             return [];
         }

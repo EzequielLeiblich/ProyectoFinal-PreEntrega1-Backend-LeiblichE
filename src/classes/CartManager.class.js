@@ -5,7 +5,7 @@ const path = "src/classes/files/carts.json";
 
 export default class ManagerCarts {
     consultarCarts = async () => {
-        console.log("existe", fs.existsSync(path));
+        console.log("Carrito existente", fs.existsSync(path));
         if (fs.existsSync(path)) {
         const data = await fs.promises.readFile(path, "utf-8");
         const carts = JSON.parse(data);
@@ -28,7 +28,7 @@ export default class ManagerCarts {
         return cart.id == id;
         });
 
-        return cart ? cart : "carrito no encontrado";
+        return cart ? cart : "Id de carrito no encontrado";
     };
 
     agregarProductoEnCarrito = async (idCart, idProduct) => {

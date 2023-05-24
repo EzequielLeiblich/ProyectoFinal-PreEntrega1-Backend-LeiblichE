@@ -12,7 +12,8 @@ router.get("/:id", async (req, res) => {
 });
 
 router.get("/", async (req, res) => {
-    const products = await managerProducts.consultarProductos();
+    const limit = req.query.limit || 15;
+    const products = await managerProducts.consultarProductos(limit);
     res.send({ products });
 });
 
