@@ -1,0 +1,142 @@
+[
+	{
+		"title": "Filtro de aire",
+		"description": "Filtro de aire de repuesto para vehículos",
+		"code": "FA-001",
+		"price": 15.99,
+		"status": true,
+		"stock": 50,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/filtro_aire_1.jpg",
+			"https://example.com/images/filtro_aire_2.jpg"
+		],
+		"id": "d0eb9086-54ca-49cc-8850-cc4ea16c61be"
+	},
+	{
+		"title": "Batería de automóvil",
+		"description": "Batería de repuesto para automóviles",
+		"code": "BA-002",
+		"price": 129.99,
+		"status": true,
+		"stock": 20,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/bateria_1.jpg",
+			"https://example.com/images/bateria_2.jpg"
+		],
+		"id": "752a3082-639b-4c0b-8070-50e73e1a2668"
+	},
+	{
+		"title": "Pastillas de freno",
+		"description": "Pastillas de freno de repuesto para vehículos",
+		"code": "PF-003",
+		"price": 49.99,
+		"status": true,
+		"stock": 30,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/pastillas_freno_1.jpg",
+			"https://example.com/images/pastillas_freno_2.jpg"
+		],
+		"id": "79dc2551-fed5-4482-b40c-a92200673ac3"
+	},
+	{
+		"title": "Bujia",
+		"description": "Bujia de repuesto para vehículos",
+		"code": "PF-004",
+		"price": 29.99,
+		"status": true,
+		"stock": 50,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/bujia_1.jpg",
+			"https://example.com/images/bujia_2.jpg"
+		],
+		"id": "1c2f5170-5777-46e3-9a35-4fdefa3d8027"
+	},
+	{
+		"title": "Aceite de motor",
+		"description": "Aceite de motor sintético de alta calidad",
+		"code": "AM-005",
+		"price": 39.99,
+		"status": true,
+		"stock": 40,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/aceite_motor_1.jpg",
+			"https://example.com/images/aceite_motor_2.jpg"
+		],
+		"id": "920db2ef-621e-41d6-80f1-420b8ae08233"
+	},
+	{
+		"title": "Filtro de aceite",
+		"description": "Filtro de aceite de repuesto para vehículos",
+		"code": "FA-006",
+		"price": 9.99,
+		"status": true,
+		"stock": 60,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/filtro_aceite_1.jpg",
+			"https://example.com/images/filtro_aceite_2.jpg"
+		],
+		"id": "9b6205dc-a9d3-49bb-a64c-b89410805a96"
+	},
+	{
+		"title": "Lámpara de faro",
+		"description": "Lámpara de faro halógena de repuesto",
+		"code": "LF-007",
+		"price": 19.99,
+		"status": true,
+		"stock": 25,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/lampara_faro_1.jpg",
+			"https://example.com/images/lampara_faro_2.jpg"
+		],
+		"id": "03d717b2-1894-472f-9529-c9c7e1c7bcc1"
+	},
+	{
+		"title": "Radiador",
+		"description": "Radiador de repuesto para vehículos",
+		"code": "RA-008",
+		"price": 89.99,
+		"status": true,
+		"stock": 15,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/radiador_1.jpg",
+			"https://example.com/images/radiador_2.jpg"
+		],
+		"id": "5cb368e9-3a4f-4116-869a-e25eed732d44"
+	},
+	{
+		"title": "Amortiguador",
+		"description": "Amortiguador de repuesto para vehículos",
+		"code": "AM-009",
+		"price": 69.99,
+		"status": true,
+		"stock": 20,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/amortiguador_1.jpg",
+			"https://example.com/images/amortiguador_2.jpg"
+		],
+		"id": "a2fbfdd7-dcc3-433d-8182-efda12bec24e"
+	},
+	{
+		"title": "Sensor de oxígeno",
+		"description": "Sensor de oxígeno para vehículos",
+		"code": "SO-010",
+		"price": 39.99,
+		"status": true,
+		"stock": 35,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/sensor_oxigeno_1.jpg",
+			"https://example.com/images/sensor_oxigeno_2.jpg"
+		],
+		"id": "b9a5c2cf-10eb-4915-b126-afba81ad10de"
+	}
+]
