@@ -24,6 +24,20 @@ Se adjunto al repositorio el archivo "PreEntrega1-BACKEND-LeiblichE.postman_coll
 
 ![image](https://github.com/EzequielLeiblich/ProyectoFinal-PreEntrega1-Backend-LeiblichE/assets/113488651/68b0d0d5-8cfc-47ae-b5fc-69fc96738771)
 
+Desde el flujo realizado en Postman podemos:
+
+-Ver todos los productos
+-Ver productos por ID
+-Agregar un producto nuevo
+-Actualizar un producto por ID
+-Eliminar un producto por ID
+-Ver productos con limite maximo a 5 productos
+
+
+-Ver carritos generados
+-Ver contenido del ID del carrito
+-Crear carrito nuevo
+-Agregar un producto al ID del carrito
 
 
 
