@@ -12,7 +12,7 @@ router.get("/:id", async (req, res) => {
 });
 
 router.get("/", async (req, res) => {
-    const limit = req.query.limit || 15;
+    const limit = req.query.limit || 100;
     const products = await managerProducts.consultarProductos(limit);
     res.send({ products });
 });
