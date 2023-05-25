@@ -138,5 +138,19 @@
 			"https://example.com/images/sensor_oxigeno_2.jpg"
 		],
 		"id": "b9a5c2cf-10eb-4915-b126-afba81ad10de"
+	},
+	{
+		"title": "prueba 2",
+		"description": "2da prueba de repuesto para vehículos",
+		"code": "PF-005",
+		"price": 0.99,
+		"status": true,
+		"stock": 99,
+		"category": "Repuestos",
+		"thumbnails": [
+			"https://example.com/images/prueba_1.jpg",
+			"https://example.com/images/prueba_2.jpg"
+		],
+		"id": "d1dd9c22-5044-4b5f-a959-458a4ceac0f6"
 	}
 ]

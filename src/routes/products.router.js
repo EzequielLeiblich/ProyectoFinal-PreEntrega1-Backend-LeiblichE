@@ -25,4 +25,18 @@ router.post("/", async (req, res) => {
     res.send({ status: "Producto Creado" });
 });
 
+router.delete("/:id", async (req, res) => {
+    const id = req.params.id;
+    const result = await managerProducts.eliminarProductoPorId(id);
+    res.send(result);
+});
+
+router.put("/:id", async (req, res) => {
+    const id = req.params.id;
+    const updatedFields = req.body;
+    
+    const result = await managerProducts.actualizarProductoPorId(id, updatedFields);
+    res.send(result);
+});
+
 export default router;
