@@ -54,4 +54,13 @@ export default class ManagerCarts {
         return await fs.promises.writeFile(path, JSON.stringify(carts, null,"\t" ))
 
     };
+
+    eliminarCart = async (id) => {
+        const carts = await this.consultarCarts();
+        const updatedCarts = carts.filter((cart) => {
+            return cart.id !== id;
+        });
+        return await fs.promises.writeFile(path, JSON.stringify(updatedCarts, null, "\t"));
+    };
+
 }

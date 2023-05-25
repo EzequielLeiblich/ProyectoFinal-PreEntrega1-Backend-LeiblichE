@@ -122,7 +122,7 @@
 					"response": []
 				},
 				{
-					"name": "ver productos limite 2",
+					"name": "ver productos limite 5",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -151,6 +151,45 @@
 		{
 			"name": "carritos",
 			"item": [
+				{
+					"name": "ver lista de carritos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/carts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ver lista de productos por id de carrito",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/carts/ccf72788-7d54-478f-b02a-22f3b0750806",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"carts",
+								"ccf72788-7d54-478f-b02a-22f3b0750806"
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "crear nuevo carrito",
 					"request": {
@@ -201,12 +240,12 @@
 					"response": []
 				},
 				{
-					"name": "ver lista de productos por id de carrito",
+					"name": "eliminar carrito por id",
 					"request": {
-						"method": "GET",
+						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/carts/ccf72788-7d54-478f-b02a-22f3b0750806",
+							"raw": "http://localhost:8080/carts/fd53c8de-ce57-40a4-9d87-2dac796d9ff1",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -214,26 +253,7 @@
 							"port": "8080",
 							"path": [
 								"carts",
-								"ccf72788-7d54-478f-b02a-22f3b0750806"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "ver lista de carritos",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/carts",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"carts"
+								"fd53c8de-ce57-40a4-9d87-2dac796d9ff1"
 							]
 						}
 					},

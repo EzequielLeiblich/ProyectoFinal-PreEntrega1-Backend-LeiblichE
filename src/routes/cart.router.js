@@ -17,7 +17,7 @@ router.get("/:id", async (req, res) => {
 
     router.post("/", async (req, res) => {
     await managerCarts.crearCart();
-    res.send({ status: "success" });
+    res.send({ status: "Carrito nuevo creado" });
     });
 
     router.post("/:cid/products/:pid", async (req, res) => {
@@ -25,7 +25,13 @@ router.get("/:id", async (req, res) => {
     const productId = req.params.pid;
 
     await managerCarts.agregarProductoEnCarrito(cartId, productId);
-    res.send({ status: "success" });
+    res.send({ status: "Se agrego el producto al carrito" });
+});
+
+router.delete("/:id", async (req, res) => {
+    const id = req.params.id;
+    await managerCarts.eliminarCart(id);
+    res.send({ status: "Carrito eliminado" });
 });
 
 export default router;

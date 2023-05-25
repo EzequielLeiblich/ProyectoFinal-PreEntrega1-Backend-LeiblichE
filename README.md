@@ -33,11 +33,12 @@ Desde el flujo realizado en Postman podemos:
 -Eliminar un producto por ID
 -Ver productos con limite maximo a 5 productos
 
-
 -Ver carritos generados
 -Ver contenido del ID del carrito
 -Crear carrito nuevo
 -Agregar un producto al ID del carrito
+-Eliminar carrito por ID
+
 
 
 
