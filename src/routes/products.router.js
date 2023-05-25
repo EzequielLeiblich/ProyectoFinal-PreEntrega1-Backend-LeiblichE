@@ -21,8 +21,13 @@ router.post("/", async (req, res) => {
     console.log(req.body);
     const product = req.body;
 
-    managerProducts.crearProducto(product);
-    res.send({ status: "Producto Creado" });
+    const result = await managerProducts.crearProducto(product);
+
+    if (result.status === "error") {
+        res.status(400).send({ error: result.message });
+    } else {
+        res.send({ status: "Producto Creado" });
+    }
 });
 
 router.delete("/:id", async (req, res) => {

@@ -21,10 +21,14 @@ export default class ManagerProducts {
 
     crearProducto = async (info) => {
         const productos = await this.consultarProductos();
+        const productoExistente = productos.find((producto) => producto.code === info.code);
+        if (productoExistente) {
+            return { status: "error", message: "El producto con ese código ya existe" };
+        }
         info.id = uuidV4();
         productos.push(info);
         await fs.promises.writeFile(path, JSON.stringify(productos, null, "\t"));
-        return info;
+        return { status: "success", message: "Producto creado correctamente" };
     };
 
     consultarProductoPorId = async (id) => {
